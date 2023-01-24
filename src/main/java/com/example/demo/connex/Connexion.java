@@ -12,7 +12,7 @@ public class Connexion
         try
         {
             Class.forName("org.postgresql.Driver");
-            this.con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/cloudfinal", "postgres", "hardi");
+            this.con = DriverManager.getConnection("jdbc:postgresql://containers-us-west-174.railway.app:6719/railway", "postgres", "aQ7Q5V3Qb3RW0wTvtrTJ");
             this.stat= this.con.createStatement();
 //  			this.res=stat.executeQuery(req);
             stat.execute(req);
